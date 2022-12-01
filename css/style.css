@@ -2,14 +2,31 @@ body {
     margin: 0;
 }
 
-div {
-    float: left;
-    width: 100%;
+.flex {
+    display: flex;
+    margin: 5%;
+    background-color: rgb(245, 238, 175);
+    padding: 2%;
+    justify-content: space-between;
 }
 
-div div {
-    background-color: red;
-    display: inline-block;
+.flex div {
+    width: calc(97% / 4);
+    background-color: green;
+    text-align: center;
+}
+
+.float {
+    overflow: hidden;
+    margin: 5%;
+    background-color: #eee;
+    padding: 2%;
+}
+
+.float div {
+    width: calc(96% / 4);
+    background-color: orange;
+    float: left;
+    text-align: center;
     margin-left: 1%;
-    width: calc(96% /4);
 }
