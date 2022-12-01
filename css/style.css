@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+}
+
+div {
+    float: left;
+    width: 100%;
+}
+
+div div {
+    background-color: red;
+    display: inline-block;
+    margin-left: 1%;
+    width: calc(96% /4);
+}
